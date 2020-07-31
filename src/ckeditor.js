@@ -14,6 +14,7 @@ import FontBackgroundColor from "@ckeditor/ckeditor5-font/src/fontbackgroundcolo
 import FontColor from "@ckeditor/ckeditor5-font/src/fontcolor.js";
 import FontFamily from "@ckeditor/ckeditor5-font/src/fontfamily.js";
 import FontSize from "@ckeditor/ckeditor5-font/src/fontsize.js";
+import Heading from "@ckeditor/ckeditor5-heading/src/heading.js";
 import HorizontalLine from "@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js";
 import Image from "@ckeditor/ckeditor5-image/src/image.js";
 import ImageCaption from "@ckeditor/ckeditor5-image/src/imagecaption.js";
@@ -65,6 +66,7 @@ Editor.builtinPlugins = [
   FontColor,
   FontFamily,
   FontSize,
+  Heading,
   HorizontalLine,
   Image,
   ImageCaption,
@@ -105,6 +107,8 @@ Editor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
   toolbar: {
     items: [
+      "heading",
+      "|",
       "bold",
       "italic",
       "underline",
