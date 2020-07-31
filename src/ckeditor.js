@@ -16,12 +16,6 @@ import FontFamily from "@ckeditor/ckeditor5-font/src/fontfamily.js";
 import FontSize from "@ckeditor/ckeditor5-font/src/fontsize.js";
 import Heading from "@ckeditor/ckeditor5-heading/src/heading.js";
 import HorizontalLine from "@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js";
-import Image from "@ckeditor/ckeditor5-image/src/image.js";
-import ImageCaption from "@ckeditor/ckeditor5-image/src/imagecaption.js";
-import ImageResize from "@ckeditor/ckeditor5-image/src/imageresize.js";
-import ImageStyle from "@ckeditor/ckeditor5-image/src/imagestyle.js";
-import ImageToolbar from "@ckeditor/ckeditor5-image/src/imagetoolbar.js";
-import ImageUpload from "@ckeditor/ckeditor5-image/src/imageupload.js";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent.js";
 import IndentBlock from "@ckeditor/ckeditor5-indent/src/indentblock.js";
 import Italic from "@ckeditor/ckeditor5-basic-styles/src/italic.js";
@@ -68,12 +62,6 @@ Editor.builtinPlugins = [
   FontSize,
   Heading,
   HorizontalLine,
-  Image,
-  ImageCaption,
-  ImageResize,
-  ImageStyle,
-  ImageToolbar,
-  ImageUpload,
   Indent,
   IndentBlock,
   Italic,
@@ -124,7 +112,6 @@ ClassicEditor.defaultConfig = {
       "indent",
       "outdent",
       "|",
-      "imageUpload",
       "blockQuote",
       "insertTable",
       "mediaEmbed",
